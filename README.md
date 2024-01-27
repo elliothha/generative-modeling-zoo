@@ -1,6 +1,6 @@
 # DLArchitectures [In Progress]
 
-(1/27/24 update) Currently working on:
+(1/27/24 update) Currently working on implementing example architectures for:
 - Coupling & Autoregressive Normalizing Flow architectures (NICE - Dinh et al., 2015; GLOW - Kingma and Dhariwal, 2018)
 - Parallel WaveGAN for Image Modeling (Yamamoto et al., 2019)
 - Markov Chain Monte Carlo algos (simple random walk Metropolis-Hasting; MALA)
