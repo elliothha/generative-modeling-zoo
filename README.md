@@ -5,9 +5,14 @@
 
 This repo contains links to all of my Pytorch implementations for the various architectures and models in the generative modeling zoo. All implementations are intended purely for educational/academic purposes with sources cited.
 
-[TODO]: Need to track down my old files for GANs, VAEs, and RBMs, and then also consolidate my current notebooks for Norm Flows and Transformers into the repos :( Will do sometime later this week hopefully when I have time. Also need to try implementing NCSNs based off the paper
+[TODO]: Will do these later this week when I have time
+1. Need to track down my old implementations for GANs, VAEs, and RBMs
+2. Consolidate current notebook files for Norm Flows and Transformers into the repos
+3. Implement NCSN based on the paper
 
 by **Elliot H Ha**. Duke University
+
+[elliothha.tech](https://elliothha.tech/) | [elliot.ha@duke.edu](mailto:elliot.ha@duke.edu)
 
 ---
 
