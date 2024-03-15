@@ -1,28 +1,36 @@
 # Generative Modeling Zoo
 
-[3/15/23 Update] Updated Flow-based models repo
+*[3/15/23 Update] Updated Flow-based models repo*
 
-A collection of my PyTorch implementations of various architectures in the generative modeling zoo.
+This repo contains links to all of my Pytorch implementations for the various architectures and models in the generative modeling zoo.
+
+by **Elliot H Ha**. Duke University
+
+---
 
 ## Architectures / Models
 
-- Implicit generative models
-    - GANs
-        - Generative Adversarial Networks (GANs)
-    - Score-based models
-        - Noise-Conditional Score Networks (NCSNs)
-- Likelihood-based models
-    - Autoregressive models
-        - Transformers
-    - Energy-based models
-        - Restricted Boltzmann Machines (RBMs)
-    - Flow-based models
-        - Normalizing Flows (Autoregressive + Coupling)
-    - VAEs
-        - Variational Autoencoders (VAEs)
+### Implicit generative models
+- GANs
+   - [Generative Adversarial Networks (GANs)](https://github.com/elliothha/generative-adversarial-networks)
+- Score-based models
+   - [Noise-Conditional Score Networks (NCSNs)](https://github.com/elliothha/noise-conditional-score-networks)
+ 
+### Likelihood-based models
+ - Autoregressive models
+   - [Transformers](https://github.com/elliothha/transformers)
+       - Attention Is All You Need
+ - Energy-based models
+    - [Restricted Boltzmann Machines (RBMs)](https://github.com/elliothha/restricted-boltzmann-machines)
+ - Flow-based models
+   - [Normalizing Flows (Autoregressive + Coupling)](https://github.com/elliothha/normalizing-flows)
+      - RealNVP, NICE, MAF, IAF, GLOW
+- VAEs
+  - [Variational Autoencoders (VAEs)](https://github.com/elliothha/variational-autoencoders)
 
 
 ## Markov Chain Monte Carlo (MCMC) Sampling Algorithms
 
-- Metropolis-Hastings Algorithm
-- Metropolis Adjusted Langevin Algorithm (MALA)
+- [MCMC Sampling Algorithms](https://github.com/elliothha/mcmc-sampling-algos)
+    - Metropolis-Hastings Algorithm (+ Random-Walk MH)
+    - Metropolis Adjusted Langevin Algorithm (MALA)
