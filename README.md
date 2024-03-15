@@ -1,16 +1,25 @@
-# DLArchitectures [In Progress]
+# Generative Modeling Zoo
 
-(1/27/24 update) Currently working on implementing example architectures for:
-- Coupling & Autoregressive Normalizing Flow architectures (NICE - Dinh et al., 2015; GLOW - Kingma and Dhariwal, 2018)
-- Parallel WaveGAN for Image Modeling (Yamamoto et al., 2019)
-- Markov Chain Monte Carlo algos (simple random walk Metropolis-Hasting; MALA)
-- Gibbs Sampling from energy-based models
+[3/15/23 Update] A collection of my PyTorch implementations of various generative model architectures.
 
-Plan to upload these finished example architectures when I have time to recover the notebook files from my old GPU:
-- Categories in Computer Vision (Conv net architectures for object detection, etc.)
-- Natural Language Processing (Text generation)
-- Generative Models (Implicit & Explicit: GANs, RBMs, VAEs, etc.)
-- Reinforcement Learning (Dueling Deep Q-Network model for Pacman!!!)
-- Graphical Models (GCNs)
-- Time Series Forecasting (LSTM)
-- etc.
+## Architectures / Models
+
+- Implicit generative models
+    - GANs
+        - Generative Adversarial Networks (GANs)
+    - Score-based models
+        - Noise-Conditional Score Networks (NCSNs)
+- Likelihood-based models
+    - Autoregressive models
+        - Transformers
+    - Energy-based models
+        - Restricted Boltzmann Machines (RBMs)
+    - Flow-based models
+        - Normalizing Flows (Autoregressive + Coupling)
+    - VAEs
+        - Variational Autoencoders (VAEs)
+
+## Markov Chain Monte Carlo Sampling Algorithms
+
+- Metropolis-Hastings Algorithm
+- Metropolis Adjusted Langevin Algorithm (MALA)
