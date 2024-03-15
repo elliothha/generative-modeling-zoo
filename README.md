@@ -1,4 +1,5 @@
 # Generative Modeling Zoo
+![GitHub last commit](https://img.shields.io/github/last-commit/elliothha/generative-modeling-zoo)
 
 *[3/15/23 Update] Updated MCMC Sampling Algos repo to have random-walk MH and MALA*
 
