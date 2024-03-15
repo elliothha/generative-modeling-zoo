@@ -1,8 +1,8 @@
 # Generative Modeling Zoo
 
-*[3/15/23 Update] Updated Flow-based models repo*
+*[3/15/23 Update] Updated MCMC Sampling Algos repo to have random-walk MH and MALA*
 
-This repo contains links to all of my Pytorch implementations for the various architectures and models in the generative modeling zoo.
+This repo contains links to all of my Pytorch implementations for the various architectures and models in the generative modeling zoo. All implementations are intended purely for educational/academic purposes with sources cited.
 
 by **Elliot H Ha**. Duke University
 
@@ -32,5 +32,5 @@ by **Elliot H Ha**. Duke University
 ## Markov Chain Monte Carlo (MCMC) Sampling Algorithms
 
 - [MCMC Sampling Algorithms](https://github.com/elliothha/mcmc-sampling-algos)
-    - Metropolis-Hastings Algorithm (+ Random-Walk MH)
+    - Random-walk Metropolis-Hastings Algorithm (+ Metropolis Algo)
     - Metropolis Adjusted Langevin Algorithm (MALA)
