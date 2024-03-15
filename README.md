@@ -1,6 +1,8 @@
 # Generative Modeling Zoo
 
-[3/15/23 Update] A collection of my PyTorch implementations of various generative model architectures.
+[3/15/23 Update] Updated Flow-based models repo
+
+A collection of my PyTorch implementations of various architectures in the generative modeling zoo.
 
 ## Architectures / Models
 
@@ -19,7 +21,8 @@
     - VAEs
         - Variational Autoencoders (VAEs)
 
-## Markov Chain Monte Carlo Sampling Algorithms
+
+## Markov Chain Monte Carlo (MCMC) Sampling Algorithms
 
 - Metropolis-Hastings Algorithm
 - Metropolis Adjusted Langevin Algorithm (MALA)
