@@ -15,14 +15,14 @@ by **Elliot H Ha**. Duke University
 
 ## Architectures / Models
 ### Implicit generative models
-Implicit generative models have the probability distribution implicitly represented by a model of its sampling process
+Implicit generative models have the probability distribution implicitly represented by a model of its sampling process.
 - GANs
    - [Generative Adversarial Networks (GANs)](https://github.com/elliothha/generative-adversarial-networks)
 - Score-based models
    - [Noise-Conditional Score Networks (NCSNs)](https://github.com/elliothha/noise-conditional-score-networks)
  
 ### Likelihood-based models
-Likelihood-based models directly learn the distribution’s probability density (or mass) function via (approximate) maximum likelihood. 
+Likelihood-based models directly learn the distribution’s probability density (or mass) function via (approximate) maximum likelihood estimation.
  - Autoregressive models
    - [Transformers](https://github.com/elliothha/transformers)
        - Attention Is All You Need
