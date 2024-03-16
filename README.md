@@ -25,7 +25,6 @@ Implicit generative models have the probability distribution implicitly represen
       - Deep Convolutional GAN (DCGAN)
 - Score-based models
    - Noise-Conditional Score Networks (NCSNs)
-      - Uses Annealed Langevin Dynamics for sampling
    - Score Networks w/ Stochastic Differential Equations (SDEs)
  
 ### Likelihood-based models
@@ -50,6 +49,7 @@ Likelihood-based models directly learn the distribution’s probability density 
     - Random-walk Metropolis-Hastings Algorithm (+ Metropolis Algo)
     - Metropolis Adjusted Langevin Algorithm (MALA)
     - An example of Gibbs Sampling can be found in the [RBM repo](https://github.com/elliothha/restricted-boltzmann-machines/tree/main)
+- (Annealed) Langevin Dynamics Sampling will be found in the NCSN repo if I ever finish it
 
 ---
 
