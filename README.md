@@ -1,6 +1,8 @@
 # Generative Modeling Zoo
 ![GitHub last commit](https://img.shields.io/github/last-commit/elliothha/generative-modeling-zoo)
 
+*[3/16/24 Update] Updated Gaussian-Bernoulli RBM to Bernoulli-Bernoulli RBM for MNIST generation.*
+
 *[3/15/24 Update] Updated MCMC Sampling Algos repo to have random-walk MH and MALA. Uploaded VAE model for MNIST generation*
 
 This repo contains links to all of my Pytorch implementations for the various architectures and models in the generative modeling zoo. All implementations are intended purely for educational/academic purposes with sources cited.
