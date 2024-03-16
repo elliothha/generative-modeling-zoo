@@ -20,9 +20,9 @@ by **Elliot H Ha**. Duke University
 ## Architectures / Models
 ### Implicit generative models
 Implicit generative models have the probability distribution implicitly represented by a model of its sampling process.
-- GANs
+- Adversarial models
    - [Generative Adversarial Networks (GANs)](https://github.com/elliothha/generative-adversarial-networks)
-      - DCGAN, GAN
+      - Deep Convolutional GAN (DCGAN)
 - Score-based models
    - Noise-Conditional Score Networks (NCSNs)
       - Uses Annealed Langevin Dynamics for sampling
@@ -30,17 +30,18 @@ Implicit generative models have the probability distribution implicitly represen
  
 ### Likelihood-based models
 Likelihood-based models directly learn the distribution’s probability density (or mass) function via (approximate) maximum likelihood estimation.
- - Autoregressive models
-   - Transformers (Attention Is All You Need)
+ - Attention-based models
+    - Transformers
+ - Autoencoder-based models
+    - [Variational Autoencoders (VAEs)](https://github.com/elliothha/variational-autoencoders)
+    - Masked Autoencoder for Distribution Estimation (MADE)
  - Energy-based models
     - [Restricted Boltzmann Machines (RBMs)](https://github.com/elliothha/restricted-boltzmann-machines)
  - Flow-based models
    - Normalizing Flows (Autoregressive + Coupling)
-      - RealNVP, NICE, MADE, MAF, IAF, GLOW
+      - RealNVP, NICE, MAF, IAF, GLOW
 - Tree-based models
    - Chow-Liu Algorithm
-- Autoencoder-based models
-  - [Variational Autoencoders (VAEs)](https://github.com/elliothha/variational-autoencoders)
 
 
 ## Sampling Algorithms
@@ -53,13 +54,14 @@ Likelihood-based models directly learn the distribution’s probability density 
 ---
 
 ## TODO
-- [x] [3/15/24] ~~MCMC Sampling Algos~~
-- [x] [3/15/24] ~~VAEs~~
-- [x] [3/16/24] ~~Find my old notebooks for GANs, RBMs~~
+- [x] [3/15/24] ~~MCMC Sampling Algos for MH, MALA~~
+- [x] [3/15/24] ~~VAE implementation for MNIST~~
+- [x] [3/16/24] ~~Bernoulli-Bernoulli RBMs w/ Persistent Contrastive Divergence & Gibbs Sampling~~ 
+- [x] [3/16/24] ~~Found my old notebook for DCGANs thank GOD~~
 - [ ] Consolidate current notebook for the mess that is Norm Flows
 - [ ] Adapt current Transformer architecture for autoregressive generation (NLP type stuff)
 ### Unfinished Implementations
-- [ ] NCSNs w/ Annealed Langevin Dynamics Sampling, idk if I'll finish this honestly
-- [ ] Transformer for NLP
-- [ ] Chow-Liu Algo for decision trees
+- [ ] NCSNs w/ Annealed Langevin Dynamics Sampling, idk if I'll finish this honestly I strongly dislike score models
+- [ ] "Attention Is All You Need" Transformer for NLP
+- [ ] Chow-Liu Algo for decision trees, this one's super cool I'm probably going to finish this next
 - [ ] Would be really cool to finish implementations for WaveNet/Parallel WaveNet for audio gen
