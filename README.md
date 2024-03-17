@@ -1,7 +1,7 @@
 # Generative Modeling Zoo
 ![GitHub last commit](https://img.shields.io/github/last-commit/elliothha/generative-modeling-zoo)
 
-*[3/16/24 Update] Updated Gaussian-Bernoulli RBM to Bernoulli-Bernoulli RBM for MNIST generation. Uploaded old DCGAN notebook to GAN repo.*
+*[3/16/24 Update] Updated Gaussian-Bernoulli RBM to Bernoulli-Bernoulli RBM for MNIST generation. Uploaded old DCGAN notebook to GAN repo. Uploaded Normalizing Flow models (currently doesn't converge)*
 
 *[3/15/24 Update] Updated MCMC Sampling Algos repo to have random-walk MH and MALA. Uploaded VAE model for MNIST generation*
 
@@ -30,15 +30,15 @@ Implicit generative models have the probability distribution implicitly represen
 ### Likelihood-based models
 Likelihood-based models directly learn the distribution’s probability density (or mass) function via (approximate) maximum likelihood estimation.
  - Attention-based models
-    - Transformers
+    - [Transformers](https://github.com/elliothha/transformers)
  - Autoencoder-based models
     - [Variational Autoencoders (VAEs)](https://github.com/elliothha/variational-autoencoders)
     - Masked Autoencoder for Distribution Estimation (MADE)
  - Energy-based models
     - [Restricted Boltzmann Machines (RBMs)](https://github.com/elliothha/restricted-boltzmann-machines)
  - Flow-based models
-   - Normalizing Flows (Autoregressive + Coupling)
-      - RealNVP, NICE, MAF, IAF, GLOW
+   - [Normalizing Flows (Autoregressive + Coupling)](https://github.com/elliothha/normalizing-flows)
+      - Real NVP, NICE, MAF, IAF, GLOW
 - Tree-based models
    - Chow-Liu Algorithm
 
